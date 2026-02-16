@@ -14,7 +14,7 @@ npm install
 ```
 Then, start the Chocola Dev Server to see how it looks:
 ```sh
-bpm run dev
+npm run dev
 ```
 
 ## You're Ready
