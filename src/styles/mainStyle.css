@@ -84,12 +84,13 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 4px 30px;
+    padding: 8px 32px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
     corner-shape: squircle;
     border-radius: 36px;
     border: 2px #000 solid;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25)
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 button .main-div {
@@ -137,6 +138,13 @@ button:active {
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+
+.frames-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 64px;
 }
 
 #logo {

@@ -14,13 +14,37 @@
             <TitleSpan ctx.title="Chocola: Hello World!"></TitleSpan>
         </div>
 
-        <div class="main-frame" style="margin-bottom: 64px;">
-            <div id="mainCard" class="main-div">
-                <span>You've succesfully launched your Chocola App!</span>
-                <div class="row">
-                    <Button ctx.msg="Click Me!"></Button>
-                    <div class="main-frame round">
-                        <div id="number">0</div>
+        <div class="frames-container">
+            <div class="main-frame">
+                <div id="mainCard" class="main-div">
+                    <span>You've succesfully launched your Chocola App!</span>
+                    <div class="row">
+                        <CountButton ctx.msg="Click Me!"></CountButton>
+
+                        <div class="main-frame round">
+                            <div id="number">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 24px;">
+                <div class="main-frame">
+                    <div class="main-div" style="background-color: #E4D2BC; align-items: baseline;">
+                        <b>Next Steps:</b>
+                        1. Read the Docs
+                        <br>
+                        2. Explore Modules
+                        <br>
+                        3. Bake Something New!
+                    </div>
+                </div>
+
+                <div class="main-frame">
+                    <div class="main-div" style="background-color: #C2E3ED;">
+                        <b>Links</b>
+                        <br>
+                        <Button ctx.title="See in GitHub" ctx.link="https://github.com/sad-gabi/chocola"></Button>
                     </div>
                 </div>
             </div>
