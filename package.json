@@ -1,0 +1,19 @@
+{
+  "name": "chocolaplayground",
+  "version": "1.0.0",
+  "description": "Project template for a Chocola Web App",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "dev": "node chocola.server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chocola": "file:F:/github/chocola/chocola-1.2.7.tgz",
+    "path": "^0.12.7"
+  }
+}
