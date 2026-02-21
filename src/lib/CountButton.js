@@ -1,6 +1,6 @@
 import HTML from "./html/count-button.html";
 
-function RUNTIME(self, ctx = { log: "Hello World from Chocola Runtime!" }) {
+function RUNTIME(self, ctx = { log: "Hello World from Chocola Runtime!", show: true}) {
     self.addEventListener("click", () => {
         const numDis = document.querySelector("#number");
         numDis.textContent = parseInt(numDis.textContent) + 1;

@@ -19,7 +19,7 @@
                 <div id="mainCard" class="main-div">
                     <span>You've succesfully launched your Chocola App!</span>
                     <div class="row">
-                        <CountButton ctx.msg="Click Me!"></CountButton>
+                        <CountButton ctx.msg="Click Me!" ctx.show={true}></CountButton>
 
                         <div class="main-frame round">
                             <div id="number">0</div>
@@ -29,16 +29,14 @@
             </div>
 
             <div style="display: flex; gap: 24px;">
-                <div class="main-frame">
-                    <div class="main-div" style="background-color: #E4D2BC; align-items: baseline;">
-                        <b>Next Steps:</b>
-                        1. Read the Docs
-                        <br>
-                        2. Explore Modules
-                        <br>
-                        3. Bake Something New!
-                    </div>
-                </div>
+                <Container>
+                    <b>Next Steps:</b>
+                    1. Read the Docs
+                    <br>
+                    2. Explore Modules
+                    <br>
+                    3. Bake Something New!
+                </Container>
 
                 <div class="main-frame">
                     <div class="main-div" style="background-color: #C2E3ED;">
