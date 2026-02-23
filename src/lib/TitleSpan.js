@@ -1,4 +1,5 @@
 import HTML from "./html/title-span.html";
+import CSS from "./css/title-span.css";
 
 function RUNTIME(self, ctx) {
     setTimeout(() => {
@@ -17,6 +18,7 @@ function RUNTIME(self, ctx) {
 export default function TitleSpan() {
     return {
         body: HTML,
+        styles: CSS,
         script: RUNTIME
     }
 }
